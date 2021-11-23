@@ -2,8 +2,8 @@
 
 Read the Blog @ [blog.securintx.com](https://blog.securintx.com) 
 
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/securintx/blog/build-push/main)]()
 [![](https://img.shields.io/badge/license-MIT%20License-blue?logo=github&color=blue)](#LICENSE)
-[![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](#LICENSE)
 
 <br>
 
@@ -38,6 +38,8 @@ Copyright (c) 2021 securintx & authors
 code License: [MIT License](https://github.com/securintx/blog/blob/main/LICENSE.txt)
 
 content License: [CC-By-SA](https://github.com/securintx/blog/blob/main/content-license.txt)
+
+[![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](#LICENSE)
 
 <br>
 <br>
