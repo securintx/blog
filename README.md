@@ -2,7 +2,7 @@
 
 Read the Blog @ [blog.securintx.com](https://blog.securintx.com) 
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/securintx/blog/build-push/main)]()
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/securintx/blog/build-push/main)](https://github.com/securintx/blog/actions)
 [![](https://img.shields.io/badge/license-MIT%20License-blue?logo=github&color=blue)](#LICENSE)
 
 <br>
