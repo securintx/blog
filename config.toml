@@ -15,7 +15,7 @@ paginate = 10
 
 # HelloFriend theme configuration
 [params]
-  copyrightURL = "https://securintx.com?source_from=blog"
+  copyrightURL = "https://securintx.com?utm_source=blog"
 
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
