@@ -1,0 +1,29 @@
+/* Custom CSS stylsheet */
+
+/* Default & Light Theme */
+body{
+    background-color: #f0f0f0;
+}
+
+.content{
+    min-height: 750px;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.footer{
+    background: #000;
+}
+
+.footer a{
+    text-decoration-style: dotted;
+}
+
+/* Dark Theme Settings */
+.dark-theme{
+    background: #000;
+}
+
+.dark-theme .footer{
+    background: #303030;
+}
