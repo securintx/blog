@@ -1,0 +1,19 @@
+<a
+  href="{{ if $.Site.Params.Logo.LogoHomeLink }}{{ $.Site.Params.Logo.LogoHomeLink }}{{ else }}{{ $.Site.BaseURL }}{{ end }}"
+  class="logo"
+  style="text-decoration: none;"
+>
+  {{ if $.Site.Params.Logo.path }}
+    <div class="">
+        <div class="" style="display: inline;vertical-align:middle;">
+            <img style="display: inline-block;vertical-align:middle;" src="{{ $.Site.Params.Logo.path }}" alt="{{ $.Site.Params.Logo.alt }}" />
+            <div class="logo__text" style="display: inline-block;vertical-align:middle; padding-left: 1rem;">{{ $.Site.Title }}</div>
+        </div>
+    </div>
+    {{ else }}
+    <span class="logo__mark">{{ partial "greater-icon.html" . }}</span>
+    <span class="logo__text"
+      >{{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}hello friend{{ end }}</span
+    >
+  {{ end }}
+</a>

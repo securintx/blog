@@ -1,0 +1,28 @@
+version: '3'
+
+networks:
+  hugo_network:
+    driver: bridge
+
+
+services:
+
+  hugo:
+    image: klakegg/hugo:alpine
+    user: ${CURRENT_UID}
+    command: help
+    volumes:
+      - ".:/src"
+
+  serve:
+    image: klakegg/hugo:alpine
+    container_name: hugo_site
+    user: ${CURRENT_UID}
+    restart: unless-stopped
+    command: ["server", "--watch" , "-D"]
+    volumes:
+      - "./:/src"
+    networks: 
+      - hugo_network
+    ports:
+      - $HTTP_PORT:1313
