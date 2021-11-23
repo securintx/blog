@@ -7,7 +7,9 @@ Read the Blog @ [blog.securintx.com](https://blog.securintx.com)
 
 <br>
 
-## Devlopment
+## Devlopment & Content Writing
+
+Do not use `main` branch use `dev` branch and create **pull-request** for update
 
 ```bash
 # copy .env.example to .env
