@@ -2,13 +2,16 @@ baseURL = 'http://blog.securintx.com/'
 languageCode = 'en-us'
 title = 'Blog Securintx'
 description = 'Blog Securintx'
-author = 'Securintx'
-authorEmail = ''
+author = 'admin'
+authorEmail = 'hello@securintx.com'
 authorURL = 'http://blog.securintx.com/'
 test="test"
 
 theme = "hello-friend"
-paginate = 5
+paginate = 10
+
+[permalinks]
+  posts = '/:year/:title/'
 
 # HelloFriend theme configuration
 [params]
@@ -19,13 +22,13 @@ paginate = 5
   contentTypeName = "posts"
 
   # "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
 
   # Show reading time in minutes for posts
-  showReadingTime = false
+  showReadingTime = true
 
   # Show table of contents at the top of your posts (defaults to false)
   # Alternatively, add this param to post front matter for specific posts
@@ -49,8 +52,8 @@ paginate = 5
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatSingle = "02 Jan, 2006"
+    dateFormatList = "02 Jan, 2006"
     # leave empty to disable, enter display text to enable
     # lastModDisplay = ""
 
@@ -66,4 +69,4 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "https://securintx.com?source_from=blog"
+        url = "https://securintx.com?utm_source=blog"
