@@ -1,7 +1,7 @@
 version: '3'
 
 networks:
-  hugo_network:
+  securintx_blog_hugo_net:
     driver: bridge
 
 
@@ -9,6 +9,7 @@ services:
 
   hugo:
     image: klakegg/hugo:alpine
+    container_name: securintx_blog_hugo
     user: ${CURRENT_UID}
     command: help
     volumes:
@@ -16,13 +17,13 @@ services:
 
   serve:
     image: klakegg/hugo:alpine
-    container_name: hugo_site
+    container_name: securintx_blog
     user: ${CURRENT_UID}
     restart: unless-stopped
     command: ["server", "--watch" , "-D"]
     volumes:
       - "./:/src"
     networks: 
-      - hugo_network
+      - securintx_blog_hugo_net
     ports:
       - $HTTP_PORT:1313
