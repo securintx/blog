@@ -6,6 +6,7 @@ author = 'admin'
 authorEmail = 'hello@securintx.com'
 authorURL = 'http://blog.securintx.com/'
 test="test"
+googleAnalytics = 'G-HLQ135Y36R'
 
 theme = "hello-friend"
 paginate = 10
